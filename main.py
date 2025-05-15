@@ -108,7 +108,7 @@ def trialf():#a function is a thing gtaht we declare and we give it code that sh
     print("hii there")
 
 print(trialf())
-'''
+
 def sumfunction():
     print(5+3)
 
@@ -117,3 +117,65 @@ sumfunction()
 
 #check on functions args etc .. tommorrow data structures setd=s dictionaries , tuples ,strings etc and aplication'
 #in code
+#an example for a function
+def newfunction():
+    print(4+3)
+
+print(newfunction())
+
+
+
+
+
+
+
+
+#data structures .. and the differentg functionalities .. how they work in code
+#some examples tuples dictionaries . sets etc . we have to know the right data type to  use on order to optimize
+#the algorithms -- different data tyoes have different functionalities and handle different values . so we also
+# have to check what is our system handling .. what is the kind of ddata we are suing and what is the best data types to use in outr
+#in our algorithms to optimize it performance .. an algorothm a set of instruction to do a particular thing
+
+#sets
+number=[2,4,5,3]
+print(number[0])#this is trying to acess a particular valie in a set
+
+number[2]=5#this is assighning values to a certain index of a set
+print(number[2])
+
+#tuples
+student=("paul","kiragu"),5,8,3#defining values of the tuples
+print(student)
+print(student[1])# this is trying to print object in a particular index
+
+#dictionaries
+#using the various data types and fuctionalities .. adding values
+#removing values etc
+
+# Creating a dictionary
+student = { "name": "John", "age": 21,
+"grades": [88, 92, 79] }
+#in dictonaires the ey must have a coresponding values that show their values
+# Accessing a value
+#print(student["name"])
+student["name"]=35#chaangi corresponding values
+del student["grades"]#to remove values
+print(student["name"])
+print(student)
+
+#sets operations
+numbers={3,4,5,"orange","lemons","juice"}
+print(numbers)
+
+numbers.add("apple")
+numbers.discard("orange")
+print(numbers)
+
+
+
+#stack .. forst in first out .. different types of stacks
+#que .. a particular order if followed .. fist to come in the firs to come out
+#diffenrent types of ques reverse que etc .. advantages and disadvantages of ]
+of either in code
+
+'''
