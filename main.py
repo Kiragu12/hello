@@ -178,4 +178,10 @@ print(numbers)
 #diffenrent types of ques reverse que etc .. advantages and disadvantages of ]
 of either in code
 
+out come .. ques .. stack .. how set works .. deleting adding vlaues
+how dictionaroes work .. also tuples ..
+
 '''
+number=[2,4,5,3]
+number[2]=90
+print(number) 
